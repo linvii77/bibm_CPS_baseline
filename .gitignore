@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large local artifacts. Keep these outside normal Git; use Git LFS or an
+# external release asset if the actual checkpoint tensors need to be published.
+*.pth
+*.pt
+*.ckpt
+每日日志/
+eval_outputs*/
+
+# Local datasets.
+data/
+ECCV/
